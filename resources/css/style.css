@@ -1,3 +1,5 @@
+
+
 header {
   display: flex;
   font-family: Verdana;
@@ -8,13 +10,17 @@ header {
   height: 80px;
   width: 100%;
   border-bottom: 1px solid black;
-  justify-content: space-between;
+  background-color: white;
 }
 
 .logo {
   display: flex;
   align-items: center;
   padding-left: 30px;
+  width: 70px;
+  height: 60px;
+  margin-right: 12px;
+  flex-grow: 1;
 }
 
 .logo span {
@@ -35,6 +41,30 @@ nav a {
 
 .content {
   display: flex;
-  position: relative;
-  padding-top: 80px;
+  padding-top: 116px;
+  margin: 0 auto 78px auto;
+  width: 1232px;
+}
+
+ div {
+  border: 1px solid black;
+}
+
+.column {
+  margin-right: 32px;
+  flex-direction: column;
+  display: flex;
+
+}
+
+#first_column {
+  width: 630px;
+}
+
+#second_column {
+  width: 300px;
+}
+
+#news_bites {
+  width: 240px;
 }
